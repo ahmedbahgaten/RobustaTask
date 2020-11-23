@@ -246,7 +246,6 @@
 		E246C61B25630B3500B75DDC /* RepoDetails */ = {
 			isa = PBXGroup;
 			children = (
-				E2D5A15825643E2600AD622B /* Model */,
 				E2D5A15925643E2D00AD622B /* View */,
 				E2D5A15A25643E3600AD622B /* Presenter */,
 				E2D5A15B25643E3F00AD622B /* Router */,
@@ -333,13 +332,6 @@
 				E2D5A15725643C5700AD622B /* GithubRepoServices.h */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		E2D5A15825643E2600AD622B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		E2D5A15925643E2D00AD622B /* View */ = {
