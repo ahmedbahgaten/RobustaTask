@@ -58,9 +58,7 @@ extension GithubReposPresenter:IGithubReposPresenter{
             guard let self = self else {return}
             self.repositories = repos ?? []
             self.view?.dataHasBeenFetched()
-            self.view?.hideLoader()
         }) { (err) in
-            self.view?.hideLoader()
             self.view?.showFetchingDataError()
         }
     }

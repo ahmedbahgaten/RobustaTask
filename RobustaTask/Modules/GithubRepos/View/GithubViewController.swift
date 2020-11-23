@@ -65,10 +65,12 @@ extension GithubViewController:IGithubReposView {
     }
     
     func showFetchingDataError() {
+        hideLoading()
         alert(title: "Warning!", message: "Something went wrong")
     }
     
     func dataHasBeenFetched() {
         self.tableView.reloadData()
+        hideLoading()
     }
 }
